@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,12 +11,18 @@
 		205253EA853583C5FC37417A /* Pods_mrnchatbotTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B91A96A85A70EAEF4E55A7B /* Pods_mrnchatbotTests.framework */; };
 		A1DE5D0A25C008A8007AC11C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DE5D0925C008A8007AC11C /* AppDelegate.swift */; };
 		A1DE5D0C25C008A8007AC11C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DE5D0B25C008A8007AC11C /* SceneDelegate.swift */; };
-		A1DE5D0E25C008A8007AC11C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DE5D0D25C008A8007AC11C /* ViewController.swift */; };
+		A1DE5D0E25C008A8007AC11C /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DE5D0D25C008A8007AC11C /* ConversationsViewController.swift */; };
 		A1DE5D1125C008A8007AC11C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1DE5D0F25C008A8007AC11C /* Main.storyboard */; };
 		A1DE5D1325C008AB007AC11C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1DE5D1225C008AB007AC11C /* Assets.xcassets */; };
 		A1DE5D1625C008AB007AC11C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1DE5D1425C008AB007AC11C /* LaunchScreen.storyboard */; };
 		A1DE5D2125C008AC007AC11C /* mrnchatbotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DE5D2025C008AC007AC11C /* mrnchatbotTests.swift */; };
 		A1DE5D2C25C008AC007AC11C /* mrnchatbotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DE5D2B25C008AC007AC11C /* mrnchatbotUITests.swift */; };
+		A1DE5D7E25C01E0C007AC11C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DE5D7D25C01E0C007AC11C /* LoginViewController.swift */; };
+		A1DE5D8625C01E19007AC11C /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DE5D8525C01E19007AC11C /* RegisterViewController.swift */; };
+		A1DE5D8B25C01E25007AC11C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DE5D8A25C01E25007AC11C /* ProfileViewController.swift */; };
+		A1DE5D9025C01E36007AC11C /* PhotoViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DE5D8F25C01E36007AC11C /* PhotoViewerViewController.swift */; };
+		A1DE5D9525C01E48007AC11C /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DE5D9425C01E48007AC11C /* VideoPlayerViewController.swift */; };
+		A1DE5D9A25C01E58007AC11C /* NewConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DE5D9925C01E58007AC11C /* NewConversationsViewController.swift */; };
 		DFFE45A593B649083F77AC92 /* Pods_mrnchatbot_mrnchatbotUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF0B0BF4D062EB3EBA806D6 /* Pods_mrnchatbot_mrnchatbotUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,7 +51,7 @@
 		A1DE5D0625C008A8007AC11C /* mrnchatbot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mrnchatbot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1DE5D0925C008A8007AC11C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1DE5D0B25C008A8007AC11C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A1DE5D0D25C008A8007AC11C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A1DE5D0D25C008A8007AC11C /* ConversationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
 		A1DE5D1025C008A8007AC11C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1DE5D1225C008AB007AC11C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1DE5D1525C008AB007AC11C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,6 +62,12 @@
 		A1DE5D2725C008AC007AC11C /* mrnchatbotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mrnchatbotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1DE5D2B25C008AC007AC11C /* mrnchatbotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mrnchatbotUITests.swift; sourceTree = "<group>"; };
 		A1DE5D2D25C008AC007AC11C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1DE5D7D25C01E0C007AC11C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A1DE5D8525C01E19007AC11C /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		A1DE5D8A25C01E25007AC11C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		A1DE5D8F25C01E36007AC11C /* PhotoViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerViewController.swift; sourceTree = "<group>"; };
+		A1DE5D9425C01E48007AC11C /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+		A1DE5D9925C01E58007AC11C /* NewConversationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationsViewController.swift; sourceTree = "<group>"; };
 		AEFD9DEB2A1563997E14D131 /* Pods_mrnchatbot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mrnchatbot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAF0B0BF4D062EB3EBA806D6 /* Pods_mrnchatbot_mrnchatbotUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mrnchatbot_mrnchatbotUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C017B6C0F0C8A1398E10747A /* Pods-mrnchatbot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mrnchatbot.release.xcconfig"; path = "Target Support Files/Pods-mrnchatbot/Pods-mrnchatbot.release.xcconfig"; sourceTree = "<group>"; };
@@ -101,7 +113,6 @@
 				E58ECF02E3D26D0873FCE43D /* Pods-mrnchatbotTests.debug.xcconfig */,
 				CBCA2E6914C8B3FB6DCF6BF7 /* Pods-mrnchatbotTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -130,12 +141,11 @@
 		A1DE5D0825C008A8007AC11C /* mrnchatbot */ = {
 			isa = PBXGroup;
 			children = (
-				A1DE5D0925C008A8007AC11C /* AppDelegate.swift */,
-				A1DE5D0B25C008A8007AC11C /* SceneDelegate.swift */,
-				A1DE5D0D25C008A8007AC11C /* ViewController.swift */,
-				A1DE5D0F25C008A8007AC11C /* Main.storyboard */,
-				A1DE5D1225C008AB007AC11C /* Assets.xcassets */,
-				A1DE5D1425C008AB007AC11C /* LaunchScreen.storyboard */,
+				A1DE5D7825C01C70007AC11C /* Resources */,
+				A1DE5D7725C01C68007AC11C /* ViewModels */,
+				A1DE5D7625C01C5F007AC11C /* Models */,
+				A1DE5D7525C01C58007AC11C /* Views */,
+				A1DE5D7425C01C4D007AC11C /* Controllers */,
 				A1DE5D1725C008AB007AC11C /* Info.plist */,
 			);
 			path = mrnchatbot;
@@ -157,6 +167,61 @@
 				A1DE5D2D25C008AC007AC11C /* Info.plist */,
 			);
 			path = mrnchatbotUITests;
+			sourceTree = "<group>";
+		};
+		A1DE5D7425C01C4D007AC11C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A1DE5D0D25C008A8007AC11C /* ConversationsViewController.swift */,
+				A1DE5D7D25C01E0C007AC11C /* LoginViewController.swift */,
+				A1DE5D8525C01E19007AC11C /* RegisterViewController.swift */,
+				A1DE5D8A25C01E25007AC11C /* ProfileViewController.swift */,
+				A1DE5D8F25C01E36007AC11C /* PhotoViewerViewController.swift */,
+				A1DE5D9425C01E48007AC11C /* VideoPlayerViewController.swift */,
+				A1DE5D9925C01E58007AC11C /* NewConversationsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A1DE5D7525C01C58007AC11C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A1DE5D7925C01CBD007AC11C /* Storyboards */,
+				A1DE5D1225C008AB007AC11C /* Assets.xcassets */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A1DE5D7625C01C5F007AC11C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A1DE5D7725C01C68007AC11C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A1DE5D7825C01C70007AC11C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A1DE5D0925C008A8007AC11C /* AppDelegate.swift */,
+				A1DE5D0B25C008A8007AC11C /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A1DE5D7925C01CBD007AC11C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A1DE5D0F25C008A8007AC11C /* Main.storyboard */,
+				A1DE5D1425C008AB007AC11C /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 		DF02486D8537E91609D8BED8 /* Frameworks */ = {
@@ -407,7 +472,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1DE5D0E25C008A8007AC11C /* ViewController.swift in Sources */,
+				A1DE5D9A25C01E58007AC11C /* NewConversationsViewController.swift in Sources */,
+				A1DE5D8B25C01E25007AC11C /* ProfileViewController.swift in Sources */,
+				A1DE5D7E25C01E0C007AC11C /* LoginViewController.swift in Sources */,
+				A1DE5D8625C01E19007AC11C /* RegisterViewController.swift in Sources */,
+				A1DE5D9025C01E36007AC11C /* PhotoViewerViewController.swift in Sources */,
+				A1DE5D0E25C008A8007AC11C /* ConversationsViewController.swift in Sources */,
+				A1DE5D9525C01E48007AC11C /* VideoPlayerViewController.swift in Sources */,
 				A1DE5D0A25C008A8007AC11C /* AppDelegate.swift in Sources */,
 				A1DE5D0C25C008A8007AC11C /* SceneDelegate.swift in Sources */,
 			);
@@ -588,6 +659,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = mrnchatbot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -607,6 +679,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = mrnchatbot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
